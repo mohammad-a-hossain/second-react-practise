@@ -1,7 +1,7 @@
 import React from 'react'
 import Uncontrolled from '../Forms/uncontrolledForm' 
 
-/* import Inputs from './index' */
+ import Inputs from './index' 
 import './input.css'
 
 class App extends React.Component{
@@ -9,9 +9,12 @@ class App extends React.Component{
         return(
             <div>
               <h2 style={{textAlign: 'center'}}>React Form practice</h2> 
-             
+              <div>
+                      <Inputs />
+                 </div><hr/>
                  <Uncontrolled/> 
-              {/*   <Inputs /> */}
+                
+              
             </div>
         )
     }
