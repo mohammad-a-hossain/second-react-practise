@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# worked with form control in react from scratch
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
