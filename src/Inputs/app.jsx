@@ -1,7 +1,10 @@
 import React from 'react'
-import Uncontrolled from '../Forms/uncontrolledForm' 
 
- import Inputs from './index' 
+//debugger
+/* import Uncontrolled from '../Forms/uncontrolledForm'  */
+import SplitForm from '../split-form/index'
+/* 
+ import Inputs from './index'    */
 import './input.css'
 
 class App extends React.Component{
@@ -10,11 +13,13 @@ class App extends React.Component{
             <div>
               <h2 style={{textAlign: 'center'}}>React Form practice</h2> 
               <div>
-                      <Inputs />
-                 </div><hr/>
-                 <Uncontrolled/> 
-                
+                  {/*   <Inputs /> */}
+                 </div>
+                 <hr/>
+                 {/* <Uncontrolled/>  */}
+                <hr/>
               
+              <SplitForm />
             </div>
         )
     }
